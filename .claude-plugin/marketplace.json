@@ -1,0 +1,19 @@
+{
+  "name": "proppi-agent",
+  "owner": {
+    "name": "ProppiAI"
+  },
+  "description": "Customer workflows for Proppi Agent.",
+  "plugins": [
+    {
+      "name": "proppi-agent",
+      "source": "./plugins/proppi-agent",
+      "description": "Plan property workflows and prepare evidence briefs from information you provide."
+    },
+    {
+      "name": "proppi-agent-desktop",
+      "source": "./plugins/proppi-agent-desktop",
+      "description": "Optional Proppi MCP connection for supported desktop clients; requires account authentication."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "proppi-agent",
+  "version": "1.0.0",
+  "description": "Plan property workflows and prepare evidence briefs from information you provide.",
+  "author": {
+    "name": "ProppiAI"
+  },
+  "keywords": ["property", "workflows", "evidence"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Proppi Agent",
+        "shortDescription": "Property workflow plans and evidence briefs",
+        "longDescription": "Skills for planning property workflows and drafting evidence briefs from information supplied in the conversation. This version does not connect to a Proppi account or execute business actions.",
+        "developerName": "ProppiAI",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Help me plan a property workflow from the information I provide.",
+          "Prepare an evidence brief from the notes I provide."
+        ]
+      }
+    }
+  }
+}

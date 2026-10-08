@@ -1,0 +1,32 @@
+{
+  "name": "proppi-agent",
+  "interface": {
+    "displayName": "Proppi Agent"
+  },
+  "plugins": [
+    {
+      "name": "proppi-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/proppi-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "proppi-agent-desktop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/proppi-agent-desktop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

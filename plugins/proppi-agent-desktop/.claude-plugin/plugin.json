@@ -1,0 +1,10 @@
+{
+  "name": "proppi-agent-desktop",
+  "version": "1.0.0",
+  "description": "Optional Proppi MCP connection for supported desktop clients; requires account authentication.",
+  "author": {
+    "name": "ProppiAI"
+  },
+  "keywords": ["property", "mcp", "desktop"],
+  "mcpServers": "./mcp.json"
+}
