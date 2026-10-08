@@ -1,6 +1,6 @@
 # Proppi Agent changelog
 
-Each entry belongs to the named version. Select that release to use its matching files and customer instructions.
+Each entry belongs to the named package version. A version entry is not proof of a published Release; official source snapshots can be installed before publication.
 
 ## [1.0.0]
 
@@ -26,6 +26,6 @@ Each entry belongs to the named version. Select that release to use its matching
 
 ### Upgrade action
 
-- Choose `v1.0.0` when adding a terminal marketplace, or its full public commit SHA for a workspace import.
+- Install the current official source ref and record its public SHA when readable. Normal installation does not query tags or Releases or require a particular version.
 - Check for an existing installation and account connection first. Review the selected version and auto-update settings before changing them.
 - Read the customer guide, verify installation metadata and explicitly choose a first task. Installation verification must not read account records or perform business actions.

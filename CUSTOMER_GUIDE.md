@@ -26,7 +26,7 @@ After connecting, a first read-only task is: **“List my properties. Do not cha
 
 ## Choose when to upgrade
 
-Select a released `vX.Y.Z` tag for terminal marketplaces, or have your workspace administrator select that release's full public commit SHA. See the [installation commands](README.md#add-it-directly). Review auto-update settings and deliberately change the selected version to upgrade. Workspace version selection is controlled by the administrator.
+Use the official repository's current default source ref. Your assistant or administrator records its public SHA when readable; you do not need to select a version, verify a tag or find a Release. Check required installation files with `node verify.mjs --install`, then confirm that both skills load in your client. See the [installation commands](README.md#add-it-directly). Review auto-update settings when upgrading. Workspace source selection is controlled by the administrator.
 
 Check release notes for compatibility and support before upgrading or staying on an older version. Immutable files do not freeze the remote service or guarantee permanent availability. Check Proppi's account messages and release notes for service changes; the existing terms govern service notices. No support deadline is created by this guide.
 

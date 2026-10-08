@@ -3,7 +3,7 @@
   "kind": "release",
   "version": "1.0.0",
   "sourceRepository": "ProppiAI/ProppiAI",
-  "sourceSha": "47e62cbee784d6f16359a661f94ca5b8fff25238",
+  "sourceSha": "126b5676145520a586d5f5c3ca5f16c4f955f497",
   "repository": "ProppiAI/ProppiAI-Agent",
   "compatibility": {
     "skills": "Uses only information supplied by the user; no account connection required.",
@@ -12,22 +12,23 @@
   },
   "releaseNotes": {
     "path": "CHANGELOG.md",
+    "scope": "version-entry",
     "version": "1.0.0",
-    "sha256": "b6a2da168c76bf5974aae8bf77dd306baeb11522fbd40fbe3ba508ec99318192"
+    "sha256": "f8b9ec0d47226650b13ea1542923150efd0995cb9afb2aa05c7d8e1d5c2d0cfb"
   },
   "files": {
     ".agents/plugins/marketplace.json": "f1b0d1b29694a20e7c6fd4acfdd5930f5b73a4e20c78d8db414ebf32d2a04f7b",
     ".claude-plugin/marketplace.json": "2375e1670485b5cd4c09e12c565973eeda362242bfa7f5473df8f5ecb7ca3ea0",
-    "CHANGELOG.md": "83f76b222b54f999efa2ed67dce417c24016bb23799ef301aad65671c8aedf6c",
-    "CUSTOMER_GUIDE.md": "e3ab27bf0e5bf3a4b33834706336978f79973c01460362ea8829894b556b850f",
-    "README.md": "04985b1efe5a2dd71b6047d80325d2f995a4a44ce75e0e78026320b5a8880c45",
+    "CHANGELOG.md": "9efaa235f25e030ff19b07648bd1881bd18e627664f70ec191511b0f476f7980",
+    "CUSTOMER_GUIDE.md": "af0e1e9fd6437f1d4b3bcd7b49240572c7f14c9f194d3b8905ee13a1031d3eb1",
+    "README.md": "f676019db3d7fd7d3efe467cb32793f467d365681392a68e23c4e33dd7b0a011",
     "plugins/proppi-agent-desktop/.claude-plugin/plugin.json": "33daa8e581c06c13ce4d6b6633892760b3a47db17cedce3e0bd00d6468942da0",
     "plugins/proppi-agent-desktop/mcp.json": "f3f7c030828882d01e2277aa1afce35dc01bdcf7a489725e0c59c56b25864f52",
     "plugins/proppi-agent-desktop/plugin.json": "98039805997386476a580c8024be3673ce9ecb0f7edc8e2eea77a57a9cf6294e",
     "plugins/proppi-agent/.claude-plugin/plugin.json": "85975e3dfd4a15051021636b52f7d2e93bb4425c8c54defac1350564f16ae99b",
     "plugins/proppi-agent/plugin.json": "138c5e210ae4f53947b4ef400b14ae68fffc73dd0f56fc7fe25dba7b324a9680",
-    "plugins/proppi-agent/skills/proppi-evidence-brief/SKILL.md": "addc46145bbbbbb9ebc1e9a3bd9df594782093ac99e4ba403b4ad7302e56718c",
-    "plugins/proppi-agent/skills/proppi-workflow/SKILL.md": "dcc23f7014f4070ba754221f3e81526e6d66130c717be62a860bec97c8cd1920",
-    "verify.mjs": "9956f0a2a0a0c9c2e79584f5494a0372d1c8664c921d067dd49ade030d878999"
+    "plugins/proppi-agent/skills/proppi-evidence-brief/SKILL.md": "bb42329b4273d33ae4e56d70721ce27f1e075df78db680959241ed320ea433fa",
+    "plugins/proppi-agent/skills/proppi-workflow/SKILL.md": "94ab0b8e682ff40adcab25c63a8a91b2214a7b4a64803fd79d6a067a480dfe2a",
+    "verify.mjs": "b46bb3c6afb347b8dede837236d925efdb136f527023da7007aa8d565b1db9e5"
   }
 }
