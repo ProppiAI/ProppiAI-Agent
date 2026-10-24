@@ -20,6 +20,8 @@ const installationFiles = [
   "plugins/proppi-agent-desktop/plugin.json",
   "plugins/proppi-agent-desktop/.claude-plugin/plugin.json",
   "plugins/proppi-agent-desktop/mcp.json",
+  "plugins/proppi-agent-desktop/skills/proppi-account-workflow/SKILL.md",
+  "plugins/proppi-agent-desktop/skills/proppi-account-workflow/references/mcp-workflows.md",
 ];
 const actual = [];
 function walk(directory, prefix = "") {
@@ -67,8 +69,12 @@ if (installOnly) {
       throw new Error("Invalid client metadata: " + file);
     }
   }
-  for (const name of ["proppi-workflow", "proppi-evidence-brief"]) {
-    const skill = readFileSync(join(root, `plugins/proppi-agent/skills/${name}/SKILL.md`), "utf8");
+  for (const [plugin, name] of [
+    ["proppi-agent", "proppi-workflow"],
+    ["proppi-agent", "proppi-evidence-brief"],
+    ["proppi-agent-desktop", "proppi-account-workflow"],
+  ]) {
+    const skill = readFileSync(join(root, `plugins/${plugin}/skills/${name}/SKILL.md`), "utf8");
     if (
       !skill.startsWith("---\n") ||
       !skill.includes(`\nname: ${name}\n`) ||
@@ -79,7 +85,9 @@ if (installOnly) {
     }
   }
   console.log(`Proppi Agent: ${expected.length} required installation files verified.`);
-  console.log("Confirm both skills load in your client. Tags and Releases are not checked.");
+  console.log(
+    "Confirm the installed plugin's skills load in your client, including proppi-account-workflow for the desktop companion. Tags and Releases are not checked.",
+  );
 } else {
   // files hashes complete file bytes; releaseNotes hashes only the named version entry.
   // Earlier official source snapshots omitted scope but used the same entry format.

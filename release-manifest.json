@@ -1,34 +1,36 @@
 {
   "schemaVersion": 1,
   "kind": "release",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "sourceRepository": "ProppiAI/ProppiAI",
-  "sourceSha": "126b5676145520a586d5f5c3ca5f16c4f955f497",
+  "sourceSha": "98a220f647f19c4b353ed254c97d124c390f937c",
   "repository": "ProppiAI/ProppiAI-Agent",
   "compatibility": {
-    "skills": "Uses only information supplied by the user; no account connection required.",
+    "skills": "Two offline skills use information supplied by the user; the optional desktop companion adds an authenticated account workflow skill.",
     "mcp": "Optional authenticated Streamable HTTP connection to https://agents.proppi.ai/api/mcp; availability and permitted tools depend on the current service and account permissions.",
     "support": "Support is confirmed per release. No end-of-support date has been announced. Immutable client files do not freeze the remote service or guarantee indefinite compatibility."
   },
   "releaseNotes": {
     "path": "CHANGELOG.md",
     "scope": "version-entry",
-    "version": "1.0.0",
-    "sha256": "f8b9ec0d47226650b13ea1542923150efd0995cb9afb2aa05c7d8e1d5c2d0cfb"
+    "version": "1.1.0",
+    "sha256": "4e8201bb3f6cc75de5baf3a0a2fa67fdff1701f2370b3e9b1ef624b253c93ab0"
   },
   "files": {
     ".agents/plugins/marketplace.json": "f1b0d1b29694a20e7c6fd4acfdd5930f5b73a4e20c78d8db414ebf32d2a04f7b",
-    ".claude-plugin/marketplace.json": "2375e1670485b5cd4c09e12c565973eeda362242bfa7f5473df8f5ecb7ca3ea0",
-    "CHANGELOG.md": "9efaa235f25e030ff19b07648bd1881bd18e627664f70ec191511b0f476f7980",
-    "CUSTOMER_GUIDE.md": "af0e1e9fd6437f1d4b3bcd7b49240572c7f14c9f194d3b8905ee13a1031d3eb1",
-    "README.md": "f676019db3d7fd7d3efe467cb32793f467d365681392a68e23c4e33dd7b0a011",
-    "plugins/proppi-agent-desktop/.claude-plugin/plugin.json": "33daa8e581c06c13ce4d6b6633892760b3a47db17cedce3e0bd00d6468942da0",
+    ".claude-plugin/marketplace.json": "5363dd3876f9beb8b81bc2be706a98995671dfe1d6819106ba71fa58c87ebf2a",
+    "CHANGELOG.md": "2e0cffc920fedc7d0f12826e6560d874b765fd40e8452d457fe97bd218a49f2d",
+    "CUSTOMER_GUIDE.md": "9d69d15679aef7817baf6a9d9208ac3650d977515a726ef32b416d4f4ef95683",
+    "README.md": "e0cb46a846990300ef3ac2358d2b8a25be301acf9cbeed468bd460798d5e1379",
+    "plugins/proppi-agent-desktop/.claude-plugin/plugin.json": "9e54592288d4068c15aa0d7270d438b21a41e66f304d058104aeb5005c27be48",
     "plugins/proppi-agent-desktop/mcp.json": "f3f7c030828882d01e2277aa1afce35dc01bdcf7a489725e0c59c56b25864f52",
-    "plugins/proppi-agent-desktop/plugin.json": "98039805997386476a580c8024be3673ce9ecb0f7edc8e2eea77a57a9cf6294e",
-    "plugins/proppi-agent/.claude-plugin/plugin.json": "85975e3dfd4a15051021636b52f7d2e93bb4425c8c54defac1350564f16ae99b",
-    "plugins/proppi-agent/plugin.json": "138c5e210ae4f53947b4ef400b14ae68fffc73dd0f56fc7fe25dba7b324a9680",
-    "plugins/proppi-agent/skills/proppi-evidence-brief/SKILL.md": "bb42329b4273d33ae4e56d70721ce27f1e075df78db680959241ed320ea433fa",
-    "plugins/proppi-agent/skills/proppi-workflow/SKILL.md": "94ab0b8e682ff40adcab25c63a8a91b2214a7b4a64803fd79d6a067a480dfe2a",
-    "verify.mjs": "b46bb3c6afb347b8dede837236d925efdb136f527023da7007aa8d565b1db9e5"
+    "plugins/proppi-agent-desktop/plugin.json": "f10b769241c0c67ad006c830c22222c90b5b3ebf2e7611532b49beb4ed6588a7",
+    "plugins/proppi-agent-desktop/skills/proppi-account-workflow/SKILL.md": "5c2a7bc1ca69b62a70b3924ae36311816fe27d500fd53b1aa727fddee8c3d6b9",
+    "plugins/proppi-agent-desktop/skills/proppi-account-workflow/references/mcp-workflows.md": "cda47cba3ce31048c8a0997be5e7692849a00ab2fef9f1ca36cebe8b56cae97c",
+    "plugins/proppi-agent/.claude-plugin/plugin.json": "aa8e7b4763d4f7174c1d259dbc6fa85742dbf04dfc1205a99e084405bf5ad386",
+    "plugins/proppi-agent/plugin.json": "533e10761147a47312683e0ba82d1d456dc662b3a52ed80112d4eca407c7ce7a",
+    "plugins/proppi-agent/skills/proppi-evidence-brief/SKILL.md": "c969887c44049e9bdec5357738c79f33ac8dcb9e2161cb761466ee8378b00262",
+    "plugins/proppi-agent/skills/proppi-workflow/SKILL.md": "5e259c2057726d1f3f751ff4fd7120d56c9c985cb07fb7dec5563259b414a0e2",
+    "verify.mjs": "bb0ab52e253bb10e25031ea90ebc571c7dcb5f1c3dad8328944ef8291c7c1511"
   }
 }

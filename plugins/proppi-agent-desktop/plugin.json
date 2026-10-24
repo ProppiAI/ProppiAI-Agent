@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "proppi-agent-desktop",
-  "version": "1.0.0",
-  "description": "Optional Proppi MCP connection for supported desktop clients; requires account authentication.",
+  "version": "1.1.0",
+  "description": "Connected Proppi property, document, task and listing workflows for supported desktop clients.",
   "author": {
     "name": "ProppiAI"
   },
@@ -11,8 +11,8 @@
     "com.openai": {
       "interface": {
         "displayName": "Proppi Agent Desktop",
-        "shortDescription": "Desktop MCP connection to your Proppi account",
-        "longDescription": "Optional authenticated connection to Proppi's remote MCP service. Workspace imports of this plugin are desktop only. Requires a compatible client's sign-in flow and your Proppi account permissions. Install Proppi Agent separately for its planning and evidence skills.",
+        "shortDescription": "Property workflows through your connected Proppi account",
+        "longDescription": "Authenticated Proppi MCP connection with the proppi-account-workflow skill for documents, evidence briefs, property work and reviewed listing actions. Requires a compatible client and your Proppi account permissions. Install Proppi Agent separately for offline planning and evidence skills.",
         "developerName": "ProppiAI",
         "category": "Productivity",
         "capabilities": ["Read", "Write"]

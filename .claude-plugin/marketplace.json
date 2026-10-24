@@ -13,7 +13,7 @@
     {
       "name": "proppi-agent-desktop",
       "source": "./plugins/proppi-agent-desktop",
-      "description": "Optional Proppi MCP connection for supported desktop clients; requires account authentication."
+      "description": "Connected Proppi workflows and authenticated MCP for supported desktop clients."
     }
   ]
 }

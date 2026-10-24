@@ -7,6 +7,8 @@ description: Prepare a concise property evidence brief from documents or notes t
 
 Work from documents and notes the user has supplied in this conversation. This skills-only package cannot search a Proppi account or retrieve documents from it.
 
+For a request involving account records or actions, use **proppi-account-workflow** from the installed desktop companion when its authenticated tools are available. This offline skill does not supply that connection. After the companion retrieves authorised evidence, use the evidence and its source references here without claiming an account action from this skill alone.
+
 Once the client loads this skill, use it directly on supplied information. It does not require a particular version, a public plugin-directory listing or an MCP connection. Setup follows the repository README: use the current official source ref, record its SHA when readable and check only required installation files with `node verify.mjs --install`. Do not query tags or Releases, run a publication audit or turn a brief request into another installation audit. Confirm both skills actually load; do not claim unsupported client capabilities.
 
 1. Establish the question to answer and the country. For Australia, establish the state or territory if the question involves tenancy, notices, tax, or compliance. Use full jurisdiction names in the brief.

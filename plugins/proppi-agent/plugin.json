@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "proppi-agent",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Plan property workflows and prepare evidence briefs from information you provide.",
   "author": {
     "name": "ProppiAI"

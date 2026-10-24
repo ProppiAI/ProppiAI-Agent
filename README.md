@@ -1,6 +1,6 @@
 # Proppi Agent
 
-Plan property work and prepare evidence briefs from information you provide. The main package contains two skills. An optional desktop companion connects to your Proppi account through a supported client's sign-in flow.
+Proppi is a trusted assistant for landlords in New Zealand and Australia. Plan property work and prepare evidence briefs with two offline skills, or use the desktop companion's connected workflow skill to work with your Proppi documents, properties, tasks and reviewable listing work.
 
 This repository contains generated distribution files. Proppi maintains them in its main repository; changes arrive through reviewed source updates and releases. Do not edit distribution files here.
 
@@ -22,7 +22,7 @@ Run `node verify.mjs --install` to check the required manifests, client metadata
 
 ## Add it directly
 
-Choose a supported route and install the current official source. You do not need a particular version or to make this repository your project workspace. The package currently declares version **1.0.0**; this is informational and does not require a matching tag or Release.
+Choose a supported route and install the current official source. You do not need a particular version or to make this repository your project workspace. The package currently declares version **1.1.0**; this is informational and does not require a matching tag or Release.
 
 ### Terminal marketplace
 
@@ -49,7 +49,17 @@ The skills package can work where workspace plugin support permits it. An import
 
 ## Optional account connection
 
-Install **Proppi Agent Desktop** separately only if you want an account connection and your client supports authenticated remote MCP. Use the client's sign-in interface. The public service is `https://agents.proppi.ai/api/mcp`; credentials are not included in this package.
+Install **Proppi Agent Desktop** separately only if you want an account connection and your client supports authenticated remote MCP. It includes **proppi-account-workflow** and its [connected workflow reference](plugins/proppi-agent-desktop/skills/proppi-account-workflow/references/mcp-workflows.md). Use the client's sign-in interface. The public service is `https://agents.proppi.ai/api/mcp`; credentials are not included in this package.
+
+For Claude Code, after adding the marketplace above:
+
+```sh
+claude plugin install proppi-agent-desktop@proppi-agent
+```
+
+For Codex, select **Proppi Agent Desktop** from the registered marketplace in `/plugins`. Keep an existing working Proppi connection and refresh its tool catalog when needed. Confirm **proppi-account-workflow** actually loads. Installing the offline package alone does not install the companion.
+
+The connected skill guides document evidence, prepared briefs, tasks, sourced property creation and reviewed Trade Me sale listing work. It follows the host's actual tool schemas, separates internal preparation from external approval, and checks recorded outcomes. Accounting payments, contractor dispatch and complete rental publication are not supplied by this package.
 
 Check installed names, version and skill availability first. Account access and real property actions require a separate, explicit request. Do not use an account search or business action as an installation check. Review the proposed target, changes and consequences before approving an external action.
 

@@ -7,6 +7,8 @@ description: Plan a property maintenance, inspection, owner update, or document 
 
 Use the user's notes to produce a practical plan in their language. This package provides skills only. It has no Proppi connection and cannot retrieve account records or perform business actions.
 
+For a request involving account records or actions, use **proppi-account-workflow** from the installed desktop companion when its authenticated tools are available. This offline skill does not supply that connection. After the companion retrieves authorised evidence, use the evidence and its source references here without claiming an account action from this skill alone.
+
 Once the client loads this skill, use it directly on supplied information. It does not require a particular version, a public plugin-directory listing or an MCP connection. Setup follows the repository README: use the current official source ref, record its SHA when readable and check only required installation files with `node verify.mjs --install`. Do not query tags or Releases, run a publication audit or turn a workflow request into another installation audit. Confirm both skills actually load; do not claim unsupported client capabilities.
 
 1. Identify the desired outcome, property reference, user's role, and jurisdiction. For New Zealand, use the full country name. For Australia, identify the state or territory before making a jurisdiction-specific statement. Ask only for details that materially change the next step; a neutral property label is enough for a planning draft.
@@ -15,4 +17,4 @@ Once the client loads this skill, use it directly on supplied information. It do
 4. If the plan depends on a current law, notice period, tax rule, or regulatory deadline, verify it against a current official source when browsing is available. Include the jurisdiction, source, and effective date when known. If verification is unavailable, mark that step for verification without inventing the rule.
 5. Draft any requested owner, tenant, or contractor message for the user to review. A draft does not mean a message has been sent. Do not claim to schedule work, authorise spending, file a notice, contact anyone, or update a Proppi record.
 
-Return the outcome, ordered steps, open decisions, and next useful action. Keep the response proportional to the task. If the user requests an account action, explain that this installed version is skills-only and that the action needs an available, authenticated Proppi integration. Do not propose an unverified endpoint or request credentials in the conversation.
+Return the outcome, ordered steps, open decisions, and next useful action. Keep the response proportional to the task. If the user requests an account action, use the available connected companion; if it is absent, explain that the action needs an authenticated Proppi integration. Do not propose an unverified endpoint or request credentials in the conversation.

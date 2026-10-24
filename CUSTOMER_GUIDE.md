@@ -6,7 +6,7 @@ For existing Proppi customers. Start with the two installation routes in the [RE
 
 **Proppi Agent** provides two skills for planning work and preparing evidence briefs from information you supply. It does not connect to your account, retrieve records or perform account actions.
 
-If you want account access, add the separate **Proppi Agent Desktop** companion in a compatible client and use its sign-in interface to connect your existing Proppi account. Imported MCP companions are desktop only; adding a GitHub marketplace does not create a live web account connection. Available tools depend on your account permissions and the current service.
+If you want account access, add the separate **Proppi Agent Desktop** companion in a compatible client and use its sign-in interface to connect your existing Proppi account. The companion includes **proppi-account-workflow** for connected documents, tasks, evidence briefs, property creation and reviewable listing work. Imported MCP companions are desktop only; adding a GitHub marketplace does not create a live web account connection. Available tools depend on your account permissions and the current service.
 
 Connected tools exchange your explicit requests and permitted account results between your assistant and Proppi.
 
@@ -16,7 +16,7 @@ Check the installed version and any existing account connection first; avoid a d
 
 ## Check setup and try one task
 
-In the plugin directory, check the installed version and the skills **proppi-workflow** and **proppi-evidence-brief**. For the optional companion, inspect the client's connection/sign-in status. These are metadata checks: do not search account records or call a business tool just to test installation.
+In the plugin directory, check the installed version and the skills **proppi-workflow** and **proppi-evidence-brief**. For the optional companion, confirm **proppi-account-workflow** loads and inspect the client's connection/sign-in status. These are metadata checks: do not search account records or call a business tool just to test installation.
 
 Try the skills with a small set of notes:
 
@@ -24,9 +24,15 @@ Try the skills with a small set of notes:
 
 After connecting, a first read-only task is: **“List my properties. Do not change any records.”** Confirm the intended account/workspace before requesting it, then check the returned properties. For a document-backed question, ask about one property and check the source references. This is intentional first use, separate from installation verification. Skills-only drafts use supplied information; they are not proof that work was completed. If a business action fails or times out, inspect its recorded outcome before retrying.
 
+## Work through a connected task
+
+Ask for a specific outcome, for example: **“Prepare an evidence brief for this property's maintenance history and show it for my review.”** Proppi can save a draft task and deliverable, then show its sources and result. If you want no account storage at all, ask for a chat-only draft. Accepting a reviewed result is separate from sending a notice or publishing a listing.
+
+The companion checks the exact saved proposal before an external action and reads its recorded outcome afterwards. A queued action is not proof of delivery. If the tools available to your account differ from the instructions, refresh the client's tool catalog and follow the returned capability rather than repeating a failed action.
+
 ## Choose when to upgrade
 
-Use the official repository's current default source ref. Your assistant or administrator records its public SHA when readable; you do not need to select a version, verify a tag or find a Release. Check required installation files with `node verify.mjs --install`, then confirm that both skills load in your client. See the [installation commands](README.md#add-it-directly). Review auto-update settings when upgrading. Workspace source selection is controlled by the administrator.
+Use the official repository's current default source ref. Your assistant or administrator records its public SHA when readable; you do not need to select a version, verify a tag or find a Release. Check required installation files with `node verify.mjs --install`, then confirm the offline skills and, if installed, **proppi-account-workflow** load in your client. See the [installation commands](README.md#add-it-directly). Review auto-update settings when upgrading. Workspace source selection is controlled by the administrator.
 
 Check release notes for compatibility and support before upgrading or staying on an older version. Immutable files do not freeze the remote service or guarantee permanent availability. Check Proppi's account messages and release notes for service changes; the existing terms govern service notices. No support deadline is created by this guide.
 
