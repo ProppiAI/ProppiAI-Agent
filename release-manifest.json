@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "release",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "sourceRepository": "ProppiAI/ProppiAI",
-  "sourceSha": "98a220f647f19c4b353ed254c97d124c390f937c",
+  "sourceSha": "fdb6511b5c3ab80d48617da5ebcc34e5ebd76416",
   "repository": "ProppiAI/ProppiAI-Agent",
   "compatibility": {
     "skills": "Two offline skills use information supplied by the user; the optional desktop companion adds an authenticated account workflow skill.",
@@ -13,24 +13,24 @@
   "releaseNotes": {
     "path": "CHANGELOG.md",
     "scope": "version-entry",
-    "version": "1.1.0",
-    "sha256": "4e8201bb3f6cc75de5baf3a0a2fa67fdff1701f2370b3e9b1ef624b253c93ab0"
+    "version": "1.1.2",
+    "sha256": "7e593c8941acd26b205d7046e33f7cdf13f46cc32ee73e2ccc5c0a7a7d91fa31"
   },
   "files": {
     ".agents/plugins/marketplace.json": "f1b0d1b29694a20e7c6fd4acfdd5930f5b73a4e20c78d8db414ebf32d2a04f7b",
     ".claude-plugin/marketplace.json": "5363dd3876f9beb8b81bc2be706a98995671dfe1d6819106ba71fa58c87ebf2a",
-    "CHANGELOG.md": "2e0cffc920fedc7d0f12826e6560d874b765fd40e8452d457fe97bd218a49f2d",
+    "CHANGELOG.md": "8ec203a8f9b07612332a60552d43889e0039ac16a117bc7a41d6ba7f5b64ff34",
     "CUSTOMER_GUIDE.md": "9d69d15679aef7817baf6a9d9208ac3650d977515a726ef32b416d4f4ef95683",
-    "README.md": "e0cb46a846990300ef3ac2358d2b8a25be301acf9cbeed468bd460798d5e1379",
-    "plugins/proppi-agent-desktop/.claude-plugin/plugin.json": "9e54592288d4068c15aa0d7270d438b21a41e66f304d058104aeb5005c27be48",
+    "README.md": "40c8c26cf61b31308fee5eefc7b8082923a65ed29417c443f320e3a3606afcc4",
+    "plugins/proppi-agent-desktop/.claude-plugin/plugin.json": "2dfcc5d053f876663f7a98d1fd3b70798a3e846c348f1c7d89b0d788cfbf8659",
     "plugins/proppi-agent-desktop/mcp.json": "f3f7c030828882d01e2277aa1afce35dc01bdcf7a489725e0c59c56b25864f52",
-    "plugins/proppi-agent-desktop/plugin.json": "f10b769241c0c67ad006c830c22222c90b5b3ebf2e7611532b49beb4ed6588a7",
-    "plugins/proppi-agent-desktop/skills/proppi-account-workflow/SKILL.md": "5c2a7bc1ca69b62a70b3924ae36311816fe27d500fd53b1aa727fddee8c3d6b9",
-    "plugins/proppi-agent-desktop/skills/proppi-account-workflow/references/mcp-workflows.md": "cda47cba3ce31048c8a0997be5e7692849a00ab2fef9f1ca36cebe8b56cae97c",
-    "plugins/proppi-agent/.claude-plugin/plugin.json": "aa8e7b4763d4f7174c1d259dbc6fa85742dbf04dfc1205a99e084405bf5ad386",
-    "plugins/proppi-agent/plugin.json": "533e10761147a47312683e0ba82d1d456dc662b3a52ed80112d4eca407c7ce7a",
-    "plugins/proppi-agent/skills/proppi-evidence-brief/SKILL.md": "c969887c44049e9bdec5357738c79f33ac8dcb9e2161cb761466ee8378b00262",
-    "plugins/proppi-agent/skills/proppi-workflow/SKILL.md": "5e259c2057726d1f3f751ff4fd7120d56c9c985cb07fb7dec5563259b414a0e2",
+    "plugins/proppi-agent-desktop/plugin.json": "6bd39dc9035843df4484ac409f6c353f666b19cddf8924d10fd9987699e21858",
+    "plugins/proppi-agent-desktop/skills/proppi-account-workflow/SKILL.md": "8ab3a072c4da8f07d4d6c6616d14ed185ded1a33319cc4b823cdaa47f2fef640",
+    "plugins/proppi-agent-desktop/skills/proppi-account-workflow/references/mcp-workflows.md": "22d950d0a1ded1a665e81eea5e75e724ca64521a1fb454cb7ba8e408484686c6",
+    "plugins/proppi-agent/.claude-plugin/plugin.json": "4fb4450052d020653de152b5074cd33a14e9f960ff25f9fc78bea83e45c48ca5",
+    "plugins/proppi-agent/plugin.json": "4e8da77cb9fea4c87e62e5d6f767ac80afc09888b647a5644e361850f8f72a25",
+    "plugins/proppi-agent/skills/proppi-evidence-brief/SKILL.md": "ac95026a254d0ab129c54d07875cb62574c0d5171c2cc039d717a088dbb8e1b5",
+    "plugins/proppi-agent/skills/proppi-workflow/SKILL.md": "d3fe9c492a8fb1f3867234132a76eb3943463c688d466eb84b1e369752742486",
     "verify.mjs": "bb0ab52e253bb10e25031ea90ebc571c7dcb5f1c3dad8328944ef8291c7c1511"
   }
 }

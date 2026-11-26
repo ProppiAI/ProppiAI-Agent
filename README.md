@@ -16,13 +16,13 @@ Copy this sentence into your supported assistant:
 
 Installation still depends on your app's plugin support and workspace policies. Never paste passwords or tokens into a conversation.
 
-For an assistant handling setup: check the client and any existing installation, then use this official repository's current default source ref (currently `generated-code`). Record its resolved public SHA when readable; do not ask the customer to choose a version or SHA. Do not query or verify tags, Releases or publication gates for normal installation. A missing public directory listing does not block a supported Git/local marketplace route.
+For an assistant handling setup: check the client and any existing installation, then use this official repository's current default source ref (currently `main`). Record its resolved public SHA when readable; do not ask the customer to choose a version or SHA. Do not query or verify tags, Releases or publication gates for normal installation. A missing public directory listing does not block a supported Git/local marketplace route.
 
 Run `node verify.mjs --install` to check the required manifests, client metadata and two readable skill files against their file hashes, then continue installation. This does not audit changelog notes or publication. Finally check that the client actually loads **proppi-workflow** and **proppi-evidence-brief**, and report the source and available skills briefly. File checks alone are not installation completion. If the client cannot install skills, explain that limitation and offer only its supported MCP connection route; do not claim the skills are installed. Do not call business tools to test setup.
 
 ## Add it directly
 
-Choose a supported route and install the current official source. You do not need a particular version or to make this repository your project workspace. The package currently declares version **1.1.0**; this is informational and does not require a matching tag or Release.
+Choose a supported route and install the current official source. You do not need a particular version or to make this repository your project workspace. The package currently declares version **1.1.2**; this is informational and does not require a matching tag or Release.
 
 ### Terminal marketplace
 

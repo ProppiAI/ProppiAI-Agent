@@ -1,6 +1,6 @@
 {
   "name": "proppi-agent-desktop",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Connected Proppi property, document, task and listing workflows for supported desktop clients.",
   "author": {
     "name": "ProppiAI"
